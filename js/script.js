@@ -17,11 +17,9 @@ if (navigator.serviceWorker) {
 
 function enterClicked() {
   // input
-  const a_base = parseInt(
-    document.getElementById("a-base-base-of-trapzoid").value
-  )
+  const a_base = parseInt(document.getElementById("a-base-of-trapzoid").value)
   const b_base = parseInt(document.getElementById("b-base-of-trapzoid").value)
-
+  const height = parseInt(document.getElementById("height-of-trapzoid").value)
   // process
   const area = [(a + b) / 2]
 
