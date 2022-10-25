@@ -15,9 +15,15 @@ if (navigator.serviceWorker) {
   })
 }
 
-/**
- * This function displays an alert.
- */
-function myButtonClicked() {
-  document.getElementById("hello-world").innerHTML = "<p>Hello, World!</p>"
+function enterClicked() {
+  // input
+  const a_base = parseInt(document.getElementById("base-of-trapzoid").value)
+  const b_height = parseInt(document.getElementById("height-of-trapzoid").value)
+
+  // process
+  const area =  [( a + b ) / 2 ]
+
+  // output
+  document.getElementById("area-of-trapzoid").innerHTML =
+    "the area of the trapzoid is: " + area + " cm²."
 }
