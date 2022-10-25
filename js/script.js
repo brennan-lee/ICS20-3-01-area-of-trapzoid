@@ -17,7 +17,9 @@ if (navigator.serviceWorker) {
 
 function enterClicked() {
   // input
-  const a_base = parseInt(document.getElementById("a-base-base-of-trapzoid").value)
+  const a_base = parseInt(
+    document.getElementById("a-base-base-of-trapzoid").value
+  )
   const b_base = parseInt(document.getElementById("b-base-of-trapzoid").value)
 
   // process
