@@ -11,7 +11,7 @@
  */
 if (navigator.serviceWorker) {
   navigator.serviceWorker.register("/ICS20-3-01-area-of-trapzoid/sw.js", {
-    scope: "./ICS20-3-01-area-of-trapzoid/",
+    scope: "/ICS20-3-01-area-of-trapzoid/",
   })
 }
 
