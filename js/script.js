@@ -21,7 +21,7 @@ function enterClicked() {
   const b_base = parseInt(document.getElementById("b-base-of-trapzoid").value)
   const height = parseInt(document.getElementById("height-of-trapzoid").value)
   // process
- const area = height * [(a_base + b_base) / 2]
+  const area = height * [(a_base + b_base) / 2]
 
   // output
   document.getElementById("area-of-trapzoid").innerHTML =
