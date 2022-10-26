@@ -11,7 +11,7 @@
  */
 if (navigator.serviceWorker) {
   navigator.serviceWorker.register("/ICS20-3-01-area-of-trapzoid/sw.js", {
-    scope: "/ICS20-3-01-area-of-trapzoid/",
+    scope: "./ICS20-3-01-area-of-trapzoid/",
   })
 }
 
@@ -21,7 +21,7 @@ function enterClicked() {
   const b_base = parseInt(document.getElementById("b-base-of-trapzoid").value)
   const height = parseInt(document.getElementById("height-of-trapzoid").value)
   // process
-  const area = [(basea + baseb) / 2]
+  const area = [(a_base + b_base) / 2]
 
   // output
   document.getElementById("area-of-trapzoid").innerHTML =
